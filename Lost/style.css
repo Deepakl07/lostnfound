@@ -5,15 +5,16 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-color: #040e27;
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #8f95bf;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 12px 10px 2px rgb(103 96 148 / 70%);
 }
 #home {
     display: inline-block;
@@ -44,12 +45,13 @@ label {
 
 input,
 textarea {
+    background: #cdd2e6;
     width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #0c053d;
     border-radius: 4px;
 }
 
@@ -71,7 +73,7 @@ a {
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
-    color: #333;
+    color: #7ccb69;
 }
 
 a:hover {

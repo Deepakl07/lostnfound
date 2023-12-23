@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Gp Bootstrap Template - Index</title>
+  <title>PostLogin - Lost and Found</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -34,8 +34,12 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
-
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Gp<span>.</span></a></h1>
+    <style>
+        h1.logo a {
+            text-transform: none;
+        }
+    </style>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">lostXperience<span>.</span></a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -101,6 +105,18 @@ $conn->close();
     max-width: 100%; 
     height: 300px; 
     border-radius: 8px;
+    padding-bottom: 10px;
+  }
+  
+  b, strong {
+  color: #bae7eb;
+  font-weight: bolder;
+  }
+
+  p {
+    color: #d466c1;
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
 
 </style>
