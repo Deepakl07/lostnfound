@@ -74,13 +74,17 @@
 
         <script>
             function onLogin() {
+                alert('Successfully logged in.');
                 window.location.href = '../Postlogin/index.php';
-                alert('Successfully logged in.');    
+                event.preventDefault();
             }
+            
             function onSignUp() {
-                window.location.href = '../Postlogin/index.php';
                 alert('Successfully registered');
+                window.location.href = '../Postlogin/index.php';
+                event.preventDefault();
             }
+            
         </script>
     </body>
 </html>

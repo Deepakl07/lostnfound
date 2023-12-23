@@ -36,11 +36,14 @@ h1 {
 }
 
 #gallery {
-
     display: flex;
     justify-content: flex-start
 }
 
+#found-gallery{
+    display: flex;
+    justify-content: flex-start
+}
 .gallery-item {
     width: 200px;
     margin: 15px;
@@ -52,7 +55,7 @@ h1 {
 
 .gallery-item img {
     width: 100%;
-    height: auto;
+    height: 12rem;
     border-radius: 4px;
 }
 
