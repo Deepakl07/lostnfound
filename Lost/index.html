@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lost and Found</title>
+</head>
+<body>
+    <a id="home" href="../PostLogin/index.php">Home</a>
+    <div class="container">
+        <h1>Lost and Found</h1>
+        <form id="lostForm" enctype="multipart/form-data">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" name="itemName" required>
+
+            <label for="itemDescription">Description:</label>
+            <textarea id="itemDescription" name="itemDescription"></textarea>
+
+            <label for="itemImage">Image:</label>
+            <input type="file" id="itemImage" name="itemImage" accept="image/*">
+
+            <label for="contactInfo">Contact Information:</label>
+            <input type="text" id="contactInfo" name="contactInfo" required>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+
+    <a href="../Found/index.html">Find Lost items</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
